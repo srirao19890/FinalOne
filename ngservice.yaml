@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-service
+  name: dev
   namespace: my-nginx-namespace # Specify the target namespace
 spec:
   selector:
